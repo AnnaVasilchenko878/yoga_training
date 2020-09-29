@@ -1,0 +1,7 @@
+*.txt
+*.psd
+*.ai
+*.pdf
+*.zip
+*.rar
+/node_modules

@@ -1,12 +1,16 @@
 let gulp = require('gulp'),
-    sass = require('gulp-sass');
+    sass = require('gulp-sass'),
+    sourceMaps = require('gulp-sourcemaps');
 
 function copy(done) {
     gulp.src('./scss/style.scss')
+        .pipe(sourceMaps.init())
         .pipe(sass({
-            errLogToConsole: true
+            errLogToConsole: true,
+            outputStyle: 'compressed'
         }))
         .on('error', console.error.bind(console))
+        .pipe(sourceMaps.write())
         .pipe(gulp.dest('./css/'));
     done();
 };

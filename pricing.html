@@ -8,154 +8,204 @@
 </head>
 
 <body>
-    <header>
-        <a href="#"><img src="#" alt="Yoga logo"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="abount.html">About Us</a></li>
-                <li><a href="#">Teacher</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Login</a></li>
+    <header class="header">
+        <a class="header__logo logo" href="#">
+            <img class="logo__image" src="#" alt="Yoga logo">
+        </a>
+        <nav class="header__nav">
+            <ul class="nav__list nav">
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="abount.html">About Us</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Teacher</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Login</a>
+                </li>
             </ul>
-            <ul>
-                <li>
-                    <a href="#">Start your free trial</a>
+            <ul class="start__list start">
+                <li class="start__item">
+                    <a class="start__link" href="#">Start your free trial</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Our Pricing</h1>
-            <p>Whether you seek a long-term commitment or drop-in session, find a studio and rate that works for you. We
+        <section class="our-pricing">
+            <h1 class="our-pricing__title">Our Pricing</h1>
+            <p class="our-pricing__text">Whether you seek a long-term commitment or drop-in session, find a studio and rate that works for you. We
                 have membership and class package options that are as diverse as our classes.</p>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <span>19</span>
-                    <span>&#47;One class</span>
-                    <h3>Walk-In Rate</h3>
-                    <p>Meant for the occassional practictioner! These classes NEVER expire!</p>
-                    <a href="#">sign up now</a>
+            <ul class="our-pricing__list card-class">
+                <li class="card-class__item">
+                    <span class="card-class__price">19</span>
+                    <span class="card-class__number">&#47;One class</span>
+                    <h3 class="card-class__title">Walk-In Rate</h3>
+                    <p class="card-class__description">Meant for the occassional practictioner! These classes NEVER expire!</p>
+                    <a class="card-class__link" href="#">sign up now</a>
                 </li>
-                <li>
-                    <span>59</span>
-                    <span>&#47;5 class</span>
-                    <h3>5 Class Pass</h3>
-                    <p>Meant for the occassional practictioner! These classes NEVER expire!</p>
-                    <a href="#">sign up now</a>
+                <li class="card-class__item">
+                    <span class="card-class__price">59</span>
+                    <span class="card-class__number">&#47;5 class</span>
+                    <h3 class="card-class__title">5 Class Pass</h3>
+                    <p class="card-class__description">Meant for the occassional practictioner! These classes NEVER expire!</p>
+                    <a class="card-class__link" href="#">sign up now</a>
                 </li>
-                <li>
-                    <span>99</span>
-                    <span>&#47;10 class</span>
-                    <h3>10 Class Pass</h3>
-                    <p>Meant for the occassional practictioner! These classes NEVER expire!</p>
-                    <a href="#">sign up now</a>
+                <li class="card-class__item">
+                    <span class="card-class__price">99</span>
+                    <span class="card-class__number">&#47;10 class</span>
+                    <h3 class="card-class__title">10 Class Pass</h3>
+                    <p class="card-class__description">Meant for the occassional practictioner! These classes NEVER expire!</p>
+                    <a class="card-class__link" href="#">sign up now</a>
                 </li>
-                <li>
-                    <span>179</span>
-                    <span>&#47;20 class</span>
-                    <h3>20 Class Pass</h3>
-                    <p>Best deal for the yogi that comes a lot but needs time to use their passes.</p>
-                    <a href="#">sign up now</a>
+                <li class="card-class__item">
+                    <span class="card-class__price">179</span>
+                    <span class="card-class__number">&#47;20 class</span>
+                    <h3 class="card-class__title">20 Class Pass</h3>
+                    <p class="card-class__description">Best deal for the yogi that comes a lot but needs time to use their passes.</p>
+                    <a class="card-class__link" href="#">sign up now</a>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>2017 Renewal Series</h2>
-            <p>Finally, a resolution you can stick to. Reconnect with your fitness goals in 2017 with four classes
+        <section class="renewal">
+            <h2 class="renewal__title">2017 Renewal Series</h2>
+            <p class="renewal__text">Finally, a resolution you can stick to. Reconnect with your fitness goals in 2017 with four classes
                 designed to ease you back into your routine.</p>
-            <a href="#">Take this challenge</a>
+            <a class="renewal__link" href="#">Take this challenge</a>
         </section>
-        <section>
-            <img src="#" alt="#">
-            <h2>subscribe</h2>
-            <p>To receive the lastest freebies in your inbox</p>
-            <form action="#" method="POST">
-                <input type="email" name="#" id="#">
-                <button type="submit"></button>
+        <section class="subscribe">
+            <img class="subscribe__logo" src="#" alt="#">
+            <h2 class="subscribe__title">subscribe</h2>
+            <p class="subscribe__text">To receive the lastest freebies in your inbox</p>
+            <form class="subscribe__form" action="#" method="POST">
+                <input class="subscribe__input" type="email" name="#" id="#">
+                <button class="subscribe__button" type="submit"></button>
             </form>
         </section>
     </main>
-    <footer>
-        <section>
-            <h2>Contact Us</h2>
-            <p>PO Box 16122 Collins Street West, Victoria 8007 Australia Alitstudios@gmai.com +61 3 8376 6284</p>
-            <ul>
-                <li><img src="#" alt="#"><span>Facebook</span></li>
-                <li><img src="#" alt="#"><span>Twitter</span></li>
-                <li><img src="#" alt="#"><span>Google +</span></li>
-                <li><img src="#" alt="#"><span>Printerest</span></li>
+    <footer class="footer">
+        <section class="contact-us">
+            <h2 class="contact-us__title">Contact Us</h2>
+            <p class="contact-us__text">PO Box 16122 Collins Street West, Victoria 8007 Australia Alitstudios@gmai.com
+                +61 3 8376 6284</p>
+            <ul class="contact-us__list social">
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="#" alt="#">
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="#" alt="#">
+                        <span>Twitter</span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="#" alt="#">
+                        <span>Google +</span>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img class="social__icon" src="#" alt="#">
+                        <span>Printerest</span>
+                    </a>
+                </li>
             </ul>
         </section>
-        <section>
-            <h2>Useful Links</h2>
-            <ul>
-                <li>About Us</li>
-                <li>Advertise</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
-                <li>Careers</li>
-                <li>Shop</li>
+        <section class="footer-nav">
+            <h2 class="footer-nav__title">Useful Links</h2>
+            <ul class="footer-nav__list site-nav">
+                <!-- почтавить якоря -->
+                <li class="site-nav__item">About Us</li>
+                <li class="site-nav__item">Advertise</li>
+                <li class="site-nav__item">Terms & Conditions</li>
+                <li class="site-nav__item">Privacy Policy</li>
+                <li class="site-nav__item">Careers</li>
+                <li class="site-nav__item">Shop</li>
             </ul>
         </section>
-        <section>
-            <h2>Open Hours</h2>
-            <table>
-                <tr>
-                    <td>Monday</td>
+        <section class="open-hours">
+            <h2 class="open-hours__title">Open Hours</h2>
+            <table class="open-hours__table">
+                <tr class="open-hours__row day">
+                    <td class="day__week">Monday</td>
+                    <!-- Добавить символ в ячейку либо используя псевдоклассы -->
                     <td></td>
-                    <td>11am - 2pm</td>
+                    <td class="day__time">11am - 2pm</td>
                 </tr>
-                <tr>
-                    <td>Tuesday</td>
+                <tr class="open-hours__row day">
+                    <td class="day__week">Tuesday</td>
                     <td></td>
-                    <td>8am - 10pm</td>
+                    <td class="day__time">8am - 10pm</td>
                 </tr>
-                <tr>
-                    <td>Wednesday</td>
+                <tr class="open-hours__row day">
+                    <td class="day__week">Wednesday</td>
                     <td></td>
-                    <td>11am - 12pm</td>
+                    <td class="day__time">11am - 12pm</td>
                 </tr>
-                <tr>
-                    <td>Thursday</td>
+                <tr class="open-hours__row day">
+                    <td class="day__week">Thursday</td>
                     <td></td>
-                    <td>11am - 12pm</td>
+                    <td class="day__time">11am - 12pm</td>
                 </tr>
-                <tr>
-                    <td>Friday</td>
+                <tr class="open-hours__row day">
+                    <td class="day__week">Friday</td>
                     <td></td>
-                    <td>10am - 2pm</td>
+                    <td class="day__time">10am - 2pm</td>
                 </tr>
-                <tr>
-                    <td>Saturday</td>
+                <tr class="open-hours__row day">
+                    <td class="day__week">Saturday</td>
                     <td></td>
-                    <td>10am - 2pm</td>
+                    <td class="day__time">10am - 2pm</td>
                 </tr>
-                <tr>
-                    <td>Sunday</td>
+                <tr class="open-hours__row day">
+                    <td class="day__week">Sunday</td>
                     <td></td>
-                    <td>Close</td>
+                    <td class="day__time">Close</td>
                 </tr>
             </table>
         </section>
-        <section>
-            <h2>Our Location</h2>
-            <img src="#" alt="#">
+        <section class="our-location">
+            <h2 class="our-location__title">Our Location</h2>
+            <!-- добавить карту google или яндекс-->
+            <img class="our-location__img" src="#" alt="#">
         </section>
-        <section>
-            <p>Bult with wp theme by alitstudio</p>
-            <ul>
-                <li>Home</li>
-                <li>Pages</li>
-                <li>Shortcodes</li>
-                <li>Features</li>
-                <li>Blog</li>
-                <li>Portfolio</li>
-                <li>Shop</li>
+        <section class="site-copyright">
+            <p class="site-copyright__text">Bult with wp theme by alitstudio</p>
+            <ul class="site-copyright__list copyright">
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Home</a>
+                </li>
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Pages</a>
+                </li>
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Shortcodes</a>
+                </li>
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Features</a>
+                </li>
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Blog</a>
+                </li>
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Portfolio</a>
+                </li>
+                <li class="copyright__item">
+                    <a class="copyright__link" href="#">Shop</a>
+                </li>
             </ul>
         </section>
     </footer>

@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <a class="header__logo logo" href="#">
-            <img class="logo__image" src="#" alt="Yoga logo">
+            <img class="logo__image" src="img/yoga-logo.svg" width="60" height="63" alt="Yoga logo">
         </a>
         <nav class="header__nav">
             <ul class="nav__list nav">
@@ -47,13 +47,13 @@
             <p class="about-promo__subtitle">Welcome to wand yoga studio</p>
 			<ul class="about-promo__list slider">
 				<li class="slider__item">
-					<img class="slider__image" src="img/img-slider.png" width="520" height="490" alt="Woman in pose siddhasana">
+                       <img class="slider__image" src="img/img-slider.png" width="520" height="490" alt="Woman in pose siddhasana">
 				</li>
 				<li class="slider__item">
-					<img class="slider__image" src="img/img-slider-1.png" width="520" height="490" alt="Woman in pose siddhasana">
+                       <img class="slider__image" src="img/img-slider-1.png" width="520" height="490" alt="Woman in pose siddhasana">
 				</li>
 				<li class="slider__item">
-					<img class="slider__image" src="img/img-slider-2.png" width="520" height="490" alt="Stretching">
+                       <img class="slider__image" src="img/img-slider-2.png" width="520" height="490" alt="Stretching">
 				</li>
 			</ul>
             <p class="about-promo__text">We offers over 4,000 professionally-filmed online yoga classes taught by
@@ -76,7 +76,10 @@
         <section class="yoga-classes">
             <ul class="yoga-classes__list main-classes">
                 <li class="main-classes__item">
-                    <img class="main-classes__img" src="#" alt="#">
+					<picture>
+						<source srcset="img/img-yoga-basic.webp">
+						<img class="main-classes__img" src="img/img-yoga-basic.jpg" width="370" height="270" alt="Class yoga basic">
+					</picture>
                     <h3 class="main-classes__title">Basic Step</h3>
                     <p class="main-classes__text">This class is designed for first time yogis. It's the right class for
                         you if you want to learn
@@ -85,7 +88,10 @@
                         embodied, empowered, energized, and eager to come back.</p>
                 </li>
                 <li class="main-classes__item">
-                    <img class="main-classes__img" src="#" alt="#">
+					<picture>
+						<source srcset="img/img-yoga-level-one.webp">
+						<img class="main-classes__img" src="img/img-yoga-level-one.jpg" width="370" height="270" alt="Class yoga level one">
+					</picture>
                     <h3 class="main-classes__title">Level 1 Classes</h3>
                     <p class="main-classes__text">We recommend any of our classes that are designated as Level 1, such
                         as
@@ -95,7 +101,10 @@
                         beginning poses.</p>
                 </li>
                 <li class="main-classes__item">
-                    <img class="main-classes__img" src="#" alt="#">
+					<picture>
+						<source srcset="img/yoga-class-towards.webp">
+						<img class="main-classes__img" src="img/yoga-class-towards.jpg" width="370" height="270" alt="Class yoga gentle">
+					</picture>
                     <h3 class="main-classes__title">Gentle Yoga</h3>
                     <p class="main-classes__text">The slower pace of Wand Yoga Gentle classes make them a great choice
                         if
@@ -114,7 +123,10 @@
                         Intuitive interface, didn't even have
                         to read the documentation. There were several questions that the author answered quickly. For
                         customization themes no need to edit css.</blockquote>
-                    <img class="many-advanced__img" src="#" alt="#">
+						<picture>
+							<source srcset="img/img-svetlin-denkov.webp">
+							<img class="many-advanced__img" src="img/img-svetlin-denkov.jpg" width="60" height="60" alt="Svetlin Denkov">
+						</picture>
                     <cite class="many-advanced__autor">Svetlin Denkov</cite>
                     <p class="many-advanced__position">Envato author</p>
                     <ul class="many-advanced__list advanced">
@@ -158,6 +170,16 @@
         </section>
     </main>
     <footer class="footer">
+		<section class="subscribe">
+			<h2 class="vissually-hidden">Subscribe to news</h2>
+				<img class="subscribe__logo" src="img/logo_footer.svg" alt="Yoga logo">
+				<h2 class="subscribe__title">subscribe</h2>
+				<p class="subscribe__text">To receive the lastest freebies in your inbox</p>
+				<form class="subscribe__form" action="#" method="POST">
+					<input class="subscribe__input" type="email" name="#" id="#">
+					<button class="subscribe__button" type="submit"></button>
+				</form>
+			</section>
         <section class="contact-us">
             <h2 class="contact-us__title">Contact Us</h2>
             <p class="contact-us__text">PO Box 16122 Collins Street West, Victoria 8007 Australia Alitstudios@gmai.com
@@ -165,23 +187,27 @@
             <ul class="contact-us__list social">
                 <li class="social__item">
                     <a class="social__link" href="#">
+						<!-- иконка из FA -->
                         <img class="social__icon" src="#" alt="#">
                         <span>Facebook</span>
                     </a>
                 </li>
                 <li class="social__item">
+						<!-- иконка из FA -->
                     <a class="social__link" href="#">
                         <img class="social__icon" src="#" alt="#">
                         <span>Twitter</span>
                     </a>
                 </li>
                 <li class="social__item">
+						<!-- иконка из FA -->
                     <a class="social__link" href="#">
                         <img class="social__icon" src="#" alt="#">
                         <span>Google +</span>
                     </a>
                 </li>
                 <li class="social__item">
+						<!-- иконка из FA -->
                     <a class="social__link" href="#">
                         <img class="social__icon" src="#" alt="#">
                         <span>Printerest</span>
@@ -192,7 +218,7 @@
         <section class="footer-nav">
             <h2 class="footer-nav__title">Useful Links</h2>
             <ul class="footer-nav__list site-nav">
-                <!-- почтавить якоря -->
+                <!-- поcтавить якоря -->
                 <li class="site-nav__item">About Us</li>
                 <li class="site-nav__item">Advertise</li>
                 <li class="site-nav__item">Terms & Conditions</li>

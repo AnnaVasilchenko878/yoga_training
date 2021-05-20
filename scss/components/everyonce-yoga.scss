@@ -1,6 +1,6 @@
 .everyones-yoga {
 	&__title {
-		@include header();
+		@include header(left, 48px, 28px, $soft-blue);
 	}
 
 	&__text {

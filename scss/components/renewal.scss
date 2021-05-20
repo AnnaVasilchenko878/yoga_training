@@ -1,6 +1,6 @@
 .renewal {
 	&__title {
-		@include header();
+		@include header(left, 28px, 48px, $soft-blue);
 	}
 
 	&__text {
@@ -8,12 +8,12 @@
 		font-weight: 400;
 		font-size: 21px;
 		line-height: 36px;
-		color: $second-blue;
+		color: $perrywinkle;
 	}
 
 	&__link {
 		text-transform: uppercase;
 		color: $white;
-		background-color: $blue;
+		background-color: $soft-blue;
 	}
 }

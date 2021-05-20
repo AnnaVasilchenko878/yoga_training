@@ -1,18 +1,17 @@
 .about-promo {
 	&__title {
-		@include main-header();
-		color: $header-blue;
+		@include header(left, 72px, 90px, $dark-sky-blue);
 	}
 
 	&__subtitle {
 		text-transform: capitalize;
 		font-family: "Lato";
 		line-height: 90px;
-		color: $light-blue;
+		color: $light-grey-blue;
 	}
 
 	&__text {
 		font-family: "Lato";
-		color: $text-color;
+		color: $brownish-grey;
 	}
 }

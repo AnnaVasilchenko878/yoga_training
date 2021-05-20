@@ -10,7 +10,7 @@
 	&__text {
 		font-family: "Lato";
 		font-style: italic;
-		color: $second-gray;
+		color: $pinkish-grey;
 		font-size: 13px;
 	}
 
@@ -18,7 +18,7 @@
 		&::placeholder {
 			font-family: "Lato";
 			font-size: 13px;
-			color: $second-gray;
+			color: $pinkish-grey;
 		}
 	}
 
@@ -27,6 +27,6 @@
 		font-size: 12px;
 		text-transform: uppercase;
 		color: $white;
-		background-color: $blue;
+		background-color: $soft-blue;
 	}
 }

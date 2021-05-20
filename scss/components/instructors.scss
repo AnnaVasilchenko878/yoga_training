@@ -1,8 +1,7 @@
 .instructors {
 
 	&__title {
-		@include header();
-		font-size: 32px;
+		@include header(center, 32px, 36pc, $white);
 	}
 
 	&__wrapper {

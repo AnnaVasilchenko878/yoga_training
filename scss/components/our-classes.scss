@@ -1,3 +1,3 @@
 .our-classes__title {
-	@include header();
+	@include header(center, 48px, 28px, $soft-blue);
 }

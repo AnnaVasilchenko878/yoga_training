@@ -1,7 +1,6 @@
 .yoga-start {
 	&__title {
-		@include header();
-		color: $black;
+		@include header(center, 32px, 36px, $black);
 	}
 
 	&__text {
@@ -12,6 +11,6 @@
 		text-transform: uppercase;
 		color: $white;
 		font-size: 12px;
-		background-color: $blue;
+		background-color: $soft-blue;
 	}
 }

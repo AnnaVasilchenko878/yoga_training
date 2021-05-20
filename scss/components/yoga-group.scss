@@ -3,7 +3,7 @@
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 24px;
-		color: $blue;
+		color: $soft-blue;
 	}
 
 	&__time,
@@ -11,10 +11,10 @@
 	&__level {
 		font-size: 13px;
 		line-height: 24px;
-		color: $light-grey;
+		color: $warm-grey;
 	}
 
 	&__text {
-		color: $text-color;
+		color: $brownish-grey;
 	}
 }

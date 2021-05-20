@@ -1,0 +1,12 @@
+.classes-promo {
+	&__title {
+		@include header(left, 72px, 90px, $dark-sky-blue-80);
+	}
+
+	&__text {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		line-height: 90px;
+		text-align: left;
+		color: $light-grey-blue;
+	}
+}

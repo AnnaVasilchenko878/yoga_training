@@ -1,0 +1,11 @@
+.contact-us {
+	&__title {
+		@include header (left, 72px, 90px, $soft-blue);
+	}
+
+	&__text {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		text-align: left;
+		color: $ligth-grey-blue;
+	}
+}

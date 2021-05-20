@@ -1,0 +1,5 @@
+.your-benefits {
+	&__title {
+		@include header (center, 48px, 28px, $soft-blue);
+	}
+}

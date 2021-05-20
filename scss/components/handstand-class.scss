@@ -1,0 +1,23 @@
+.handstand-class {
+	&__title {
+		@include header ($left, 29px, 48px, $soft-blue);
+		text-align: left;
+	}
+
+	&__text {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		text-align: left;
+		color: $light-grey-blue;
+	}
+
+	&__time {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		text-align: left;
+		font-size: 13px;
+		color: $warm-grey;
+	}
+
+	&__description {
+		color: $brownish-grey;
+	}
+}

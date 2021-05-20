@@ -2,7 +2,7 @@ let gulp = require('gulp'),
     sass = require('gulp-sass'),
     sourceMaps = require('gulp-sourcemaps');
 
-function copy(done) {
+function build(done) {
     gulp.src('./scss/style.scss')
         .pipe(sourceMaps.init())
         .pipe(sass({
@@ -14,4 +14,4 @@ function copy(done) {
         .pipe(gulp.dest('./css/'));
     done();
 };
-gulp.task(copy);
+gulp.task(build);

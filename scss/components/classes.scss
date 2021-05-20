@@ -1,18 +1,21 @@
-.yoga-group {
+.classes {
 	&__title {
 		@include header(left, 18px, 24px, $soft-blue);
 		font-weight: 700;
 	}
 
 	&__time,
-	&__instructor,
+	&__trainer,
 	&__level {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		font-size: 13px;
 		line-height: 24px;
 		color: $warm-grey;
 	}
 
-	&__text {
+	&__description {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		color: $brownish-grey;
 	}
+
 }

@@ -5,13 +5,13 @@
 
 	&__subtitle {
 		text-transform: capitalize;
-		font-family: "Lato";
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		line-height: 90px;
 		color: $light-grey-blue;
 	}
 
 	&__text {
-		font-family: "Lato";
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		color: $brownish-grey;
 	}
 }

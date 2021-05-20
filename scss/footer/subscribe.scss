@@ -8,7 +8,7 @@
 	}
 
 	&__text {
-		font-family: "Lato";
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		font-style: italic;
 		color: $pinkish-grey;
 		font-size: 13px;
@@ -16,7 +16,7 @@
 
 	&__input {
 		&::placeholder {
-			font-family: "Lato";
+			font-family: 'Lato', 'Arial Narrow', sans-serif;
 			font-size: 13px;
 			color: $pinkish-grey;
 		}

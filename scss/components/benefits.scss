@@ -1,0 +1,13 @@
+.benefits {
+	&__title {
+		font-size: 18px;
+		line-height: 48px;
+		color: $black;
+		text-align: left;
+	}
+
+	&__text {
+		text-align: left;
+		color: $brownish-grey;
+	}
+}

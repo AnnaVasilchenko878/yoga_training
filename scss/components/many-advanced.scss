@@ -1,0 +1,18 @@
+.many-advanced {
+	&__blockquote {
+		font-family: "Lato";
+		font-size: 16px;
+		color: $light-blue;
+	}
+
+	&__autor {
+		font-weight: 700;
+		color: $blue;
+		text-align: center;
+	}
+
+	&__position {
+		font-family: "Lato";
+		color: $light-blue;
+	}
+}

@@ -1,0 +1,17 @@
+.yoga-start {
+	&__title {
+		@include header();
+		color: $black;
+	}
+
+	&__text {
+		text-align: center;
+	}
+
+	&__link {
+		text-transform: uppercase;
+		color: $white;
+		font-size: 12px;
+		background-color: $blue;
+	}
+}

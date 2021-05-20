@@ -1,0 +1,32 @@
+.subscribe {
+	&__title {
+		text-transform: uppercase;
+		font-weight: 700;
+		color: $white;
+		line-height: 34px;
+		font-size: 16px;
+	}
+
+	&__text {
+		font-family: "Lato";
+		font-style: italic;
+		color: $second-gray;
+		font-size: 13px;
+	}
+
+	&__input {
+		&::placeholder {
+			font-family: "Lato";
+			font-size: 13px;
+			color: $second-gray;
+		}
+	}
+
+	&__button {
+		font-weight: 700;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: $white;
+		background-color: $blue;
+	}
+}

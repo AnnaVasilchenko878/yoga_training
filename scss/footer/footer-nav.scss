@@ -1,0 +1,13 @@
+.footer-nav {
+	&__title {
+		font-weight: 700;
+		color: $white;
+	}
+
+	&__item {
+		font-family: "Lato";
+		font-size: 13px;
+		line-height: 36px;
+		color: $second-gray;
+	}
+}

@@ -1,0 +1,11 @@
+.instructors {
+
+	&__title {
+		@include header();
+		font-size: 32px;
+	}
+
+	&__wrapper {
+		color: $white;
+	}
+}

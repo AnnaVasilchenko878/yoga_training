@@ -1,0 +1,16 @@
+.about-blockquote {
+	&__text {
+		font-family: "Droid Serif";
+		font-style: italic;
+		text-align: center;
+		font-size: 24px;
+		line-height: 36px;
+		color: $blockquote-color;
+	}
+
+	&__autor {
+		text-align: center;
+		line-height: 36px;
+		color: $white;
+	}
+}

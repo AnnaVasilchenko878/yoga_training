@@ -1,0 +1,10 @@
+.everyones-yoga {
+	&__title {
+		@include header();
+	}
+
+	&__text {
+		width: 562px;
+		font-family: "Lato";
+	}
+}

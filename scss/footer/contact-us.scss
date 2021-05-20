@@ -1,0 +1,14 @@
+.contact-us {
+	color: $second-gray;
+
+	&__title {
+		font-weight: 700;
+	}
+
+	&__text {
+		font-family: "Lato";
+		font-size: 13px;
+		line-height: 36px;
+		color: $second-gray
+	}
+}

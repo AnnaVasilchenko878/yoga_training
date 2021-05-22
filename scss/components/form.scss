@@ -1,0 +1,21 @@
+.form {
+
+	&__name,
+	&__email,
+	&__tel &__subject,
+	&__message {
+		&::placeholder {
+			font-family: 'Lato', 'Arial', sans-serif;
+			color: $warm-grey;
+		}
+	}
+
+	&__button {
+		color: $white;
+		text-transform: uppercase;
+		line-height: 48px;
+		letter-spacing: 2px;
+		background-color: $soft-blue;
+		border: none;
+	}
+}

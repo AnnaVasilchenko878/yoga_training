@@ -1,0 +1,19 @@
+.office {
+	text-align: left;
+
+	&__name {
+		line-height: 30px;
+		font-weight: 700;
+		color: $black;
+	}
+
+	&__address {
+		font-size: 14px;
+		line-height: 36px;
+	}
+
+	&__tel {
+		color: $soft-blue;
+		line-height: 36px;
+	}
+}

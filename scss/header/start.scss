@@ -1,5 +1,7 @@
-.start__link {
-	color: $white;
-	font-size: 12px;
-	background-color: $soft-blue;
+.start {
+	&__link {
+		color: $white;
+		font-size: 12px;
+		background-color: $soft-blue;
+	}
 }

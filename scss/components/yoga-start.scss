@@ -1,4 +1,6 @@
 .yoga-start {
+	margin-bottom: 120px;
+
 	&__title {
 		@include header(center, 32px, 36px, $black);
 	}
@@ -12,5 +14,9 @@
 		color: $white;
 		font-size: 12px;
 		background-color: $soft-blue;
+		display: block;
+		width: 297px;
+		margin: 0 auto;
+		margin-bottom: 80px;
 	}
 }

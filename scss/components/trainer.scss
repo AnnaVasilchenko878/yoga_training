@@ -1,4 +1,14 @@
 .trainer {
+	width: 1305px;
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		margin-right: 80px;
+		width: 236px;
+		margin-bottom: 60px;
+	}
+
 	&__name {
 		font-weight: 700;
 		color: $black;

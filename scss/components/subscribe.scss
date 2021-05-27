@@ -1,4 +1,17 @@
 .subscribe {
+	background-color: $black-two;
+	display: flex;
+
+	&__logo {
+		width: 60px;
+		margin-right: 209px;
+	}
+
+	&__wrapper {
+		width: 350px;
+		margin-right: 219px;
+	}
+
 	&__title {
 		text-transform: uppercase;
 		font-weight: 700;
@@ -12,6 +25,10 @@
 		font-style: italic;
 		color: $pinkish-grey;
 		font-size: 13px;
+	}
+
+	&__form {
+		width: 400px;
 	}
 
 	&__input {

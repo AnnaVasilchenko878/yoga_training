@@ -1,0 +1,14 @@
+.trial {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1500px;
+
+	&__item {
+		width: 370px;
+		margin-right: 30px;
+
+		&:nth-child(4) {
+			width: 770px;
+		}
+	}
+}

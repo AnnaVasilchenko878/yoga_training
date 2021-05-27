@@ -1,10 +1,23 @@
 .instructors {
-
-	&__title {
-		@include header(center, 32px, 36pc, $white);
-	}
+	margin-bottom: 120px;
 
 	&__wrapper {
+		padding-top: 142px;
+		padding-left: 662px;
+		padding-bottom: 169px;
+		margin-bottom: 120px;
+		background-color: $soft-blue;
 		color: $white;
 	}
+
+	&__title {
+		@include header(center, 32px, 36px, $white);
+	}
+
+	&__text {
+		text-align: center;
+		width: 542px;
+		margin-bottom: 59px;
+	}
+
 }

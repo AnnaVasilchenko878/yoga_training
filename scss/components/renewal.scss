@@ -1,6 +1,13 @@
 .renewal {
+	background-color: $pale-grey-two;
+	padding-top: 245px;
+	padding-left: 564px;
+	padding-bottom: 194px;
+	margin-bottom: 80px;
+
 	&__title {
 		@include header(left, 28px, 48px, $soft-blue);
+		margin-bottom: 26px;
 	}
 
 	&__text {
@@ -9,6 +16,8 @@
 		font-size: 21px;
 		line-height: 36px;
 		color: $perrywinkle;
+		width: 433px;
+		margin-bottom: 46px;
 	}
 
 	&__link {

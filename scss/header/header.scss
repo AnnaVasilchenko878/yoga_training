@@ -1,8 +1,15 @@
-.nav__link {
-	font-family: "Poppins";
-	font-size: 16px;
-	font-weight: 700;
-	font-style: normal;
-	color: $soft-blue;
-	line-height: 24px;
+.header {
+	display: flex;
+	margin-bottom: 212px;
+
+	&__logo {
+		width: 60px;
+		height: 63px;
+		margin-right: 1094px;
+	}
+
+	&__nav {
+		display: flex;
+		width: 462px;
+	}
 }

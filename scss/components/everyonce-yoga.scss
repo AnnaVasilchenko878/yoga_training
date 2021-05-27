@@ -1,4 +1,12 @@
 .everyones-yoga {
+	display: flex;
+	margin-bottom: 120px;
+
+	&__wrapper {
+		width: 570px;
+		margin-right: 130px;
+	}
+
 	&__title {
 		@include header(left, 48px, 28px, $soft-blue);
 	}

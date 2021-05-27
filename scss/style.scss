@@ -3,6 +3,7 @@
 @import 'base/mixins.scss';
 @import 'base/defaultstyles.scss';
 @import 'header/header.scss';
+@import 'header/nav.scss';
 @import 'header/start.scss';
 @import 'components/promo.scss';
 @import 'components/everyonce-yoga.scss';
@@ -10,9 +11,11 @@
 @import 'components/our-classes.scss';
 @import 'components/yoga-group';
 @import 'components/yoga-start.scss';
+@import 'components/trial.scss';
 @import 'components/instructors.scss';
 @import 'components/trainer.scss';
 @import 'components/renewal.scss';
+@import 'components/partners.scss';
 @import 'components/about-promo.scss';
 @import 'components/about-blockquote.scss';
 @import 'components/main-classes';
@@ -28,7 +31,7 @@
 @import 'components/contact.scss';
 @import 'components/form.scss';
 @import 'components/office.scss';
-@import 'footer/subscribe.scss';
+@import 'components/subscribe.scss';
 @import 'footer/contact-us.scss';
 @import 'footer/footer-nav.scss';
 @import 'footer/open-hours.scss';

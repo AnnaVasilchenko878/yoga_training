@@ -1,4 +1,10 @@
 .main-classes {
+	display: flex;
+
+	&__item {
+		width: 370px;
+	}
+
 	&__title {
 		font-size: 18px;
 		color: $soft-blue;

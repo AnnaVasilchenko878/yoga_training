@@ -8,6 +8,20 @@
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		line-height: 90px;
 		color: $light-grey-blue;
+		margin-bottom: 259px;
+	}
+
+	&__wrapper {
+		display: flex;
+		margin-bottom: 123px;
+	}
+
+	&__list {
+		width: 520px;
+	}
+
+	&__text-wrapper {
+		width: 524px;
 	}
 
 	&__text {

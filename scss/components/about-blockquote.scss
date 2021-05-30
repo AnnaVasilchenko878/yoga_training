@@ -1,4 +1,8 @@
 .about-blockquote {
+	background-color: $soft-blue;
+	padding: 172px 650px 102px 654px;
+	margin-bottom: 120px;
+
 	&__text {
 		font-family: "Droid Serif";
 		font-style: italic;
@@ -6,6 +10,7 @@
 		font-size: 24px;
 		line-height: 36px;
 		color: $very-light-pink;
+		width: 616px;
 	}
 
 	&__autor {

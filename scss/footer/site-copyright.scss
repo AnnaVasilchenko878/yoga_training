@@ -1,6 +1,9 @@
 .site-copyright {
+	display: flex;
+
 	&__title {
 		color: $white;
 		text-transform: uppercase;
+		width: 273px;
 	}
 }

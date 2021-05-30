@@ -1,12 +1,10 @@
 .footer {
 	&__content {
 		display: flex;
+		background-color: $black-four;
 	}
 
 	&__copyright {
-		&__title {
-			color: $white;
-			text-transform: uppercase;
-		}
+		background-color: $black-two;
 	}
 }

@@ -1,5 +1,8 @@
 .your-benefits {
+	padding: 119px 375px 120px 375px;
+
 	&__title {
 		@include header (center, 48px, 28px, $soft-blue);
+		margin-bottom: 80px;
 	}
 }

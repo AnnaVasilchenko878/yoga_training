@@ -1,4 +1,11 @@
 .benefits {
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		width: 370px;
+	}
+
 	&__title {
 		font-size: 18px;
 		line-height: 48px;

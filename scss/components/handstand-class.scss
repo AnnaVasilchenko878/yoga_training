@@ -1,6 +1,8 @@
 .handstand-class {
+	margin-bottom: 120px;
+
 	&__title {
-		@include header ($left, 29px, 48px, $soft-blue);
+		@include header (left, 29px, 48px, $soft-blue);
 		text-align: left;
 	}
 
@@ -8,6 +10,15 @@
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		text-align: left;
 		color: $light-grey-blue;
+		margin-bottom: 123px;
+	}
+
+	&__wrapper {
+		display: flex;
+	}
+
+	&__info-wrapper {
+		width: 493px;
 	}
 
 	&__time {
@@ -19,5 +30,9 @@
 
 	&__description {
 		color: $brownish-grey;
+	}
+
+	&__video-wrapper {
+		width: 570px;
 	}
 }

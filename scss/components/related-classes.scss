@@ -1,5 +1,8 @@
 .related-classes {
+	padding: 120px 339px 118px 325px;
+
 	&__title {
 		@include header (center, 48px, 28px, $soft-blue);
+		margin-bottom: 80px;
 	}
 }

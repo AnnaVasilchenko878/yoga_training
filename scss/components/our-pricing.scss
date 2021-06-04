@@ -1,0 +1,19 @@
+.our-pricing {
+	margin-bottom: 149px;
+
+	&__list {
+		display: flex;
+		width: 1500px;
+	}
+
+	&__title {
+		@include header(left, 72px, 90px, $soft-blue);
+	}
+
+	&__text {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		text-align: left;
+		color: $light-grey-blue;
+		margin-bottom: 234px;
+	}
+}

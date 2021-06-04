@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing | Yoga</title>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Pricing | Yoga</title>
 </head>
 
 <body>
@@ -82,112 +83,117 @@
                 designed to ease you back into your routine.</p>
             <a class="renewal__link" href="#">Take this challenge</a>
         </section>
-    </main>
-    <footer class="footer">
 		<section class="subscribe">
 			<h2 class="visually-hidden">Subscribe to news</h2>
 				<img class="subscribe__logo" src="img/logo_footer.svg" width="60" height="63" alt="Yoga logo">
-				<h2 class="subscribe__title">subscribe</h2>
-				<p class="subscribe__text">To receive the lastest freebies in your inbox</p>
+				<div class="subscribe__wrapper">
+					<h2 class="subscribe__title">subscribe</h2>
+					<p class="subscribe__text">To receive the lastest freebies in your inbox</p>
+				</div>
 				<form class="subscribe__form" action="#" method="POST">
-					<input class="subscribe__input" type="email" name="#" id="#">
-					<button class="subscribe__button" type="submit"></button>
+					<input class="subscribe__input" type="email" name="#" id="#" placeholder="Your address email">
+					<button class="subscribe__button" type="submit">Submit</button>
 				</form>
+		</section>
+
+    </main>
+    <footer class="footer">
+		<section class="footer__content content">
+			<section class="content__contact-us contact-us">
+				<h2 class="contact-us__title">Contact Us</h2>
+				<p class="contact-us__text">PO Box 16122 Collins Street West, Victoria 8007 Australia Alitstudios@gmai.com
+					+61 3 8376 6284</p>
+				<ul class="contact-us__list social">
+					<li class="social__item">
+						<a class="social__link" href="#">
+							<!-- иконка из FA -->
+							<img class="social__icon" src="#" alt="#">
+							<span>Facebook</span>
+						</a>
+					</li>
+					<li class="social__item">
+							<!-- иконка из FA -->
+						<a class="social__link" href="#">
+							<img class="social__icon" src="#" alt="#">
+							<span>Twitter</span>
+						</a>
+					</li>
+					<li class="social__item">
+							<!-- иконка из FA -->
+						<a class="social__link" href="#">
+							<img class="social__icon" src="#" alt="#">
+							<span>Google +</span>
+						</a>
+					</li>
+					<li class="social__item">
+							<!-- иконка из FA -->
+						<a class="social__link" href="#">
+							<img class="social__icon" src="#" alt="#">
+							<span>Printerest</span>
+						</a>
+					</li>
+				</ul>
 			</section>
-        <section class="contact-us">
-            <h2 class="contact-us__title">Contact Us</h2>
-            <p class="contact-us__text">PO Box 16122 Collins Street West, Victoria 8007 Australia Alitstudios@gmai.com
-                +61 3 8376 6284</p>
-            <ul class="contact-us__list social">
-                <li class="social__item">
-                    <a class="social__link" href="#">
-						<!-- иконка из FA -->
-                        <img class="social__icon" src="#" alt="#">
-                        <span>Facebook</span>
-                    </a>
-                </li>
-                <li class="social__item">
-						<!-- иконка из FA -->
-                    <a class="social__link" href="#">
-                        <img class="social__icon" src="#" alt="#">
-                        <span>Twitter</span>
-                    </a>
-                </li>
-                <li class="social__item">
-						<!-- иконка из FA -->
-                    <a class="social__link" href="#">
-                        <img class="social__icon" src="#" alt="#">
-                        <span>Google +</span>
-                    </a>
-                </li>
-                <li class="social__item">
-						<!-- иконка из FA -->
-                    <a class="social__link" href="#">
-                        <img class="social__icon" src="#" alt="#">
-                        <span>Printerest</span>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <section class="footer-nav">
-            <h2 class="footer-nav__title">Useful Links</h2>
-            <ul class="footer-nav__list site-nav">
-                <!-- поcтавить якоря -->
-                <li class="site-nav__item">About Us</li>
-                <li class="site-nav__item">Advertise</li>
-                <li class="site-nav__item">Terms & Conditions</li>
-                <li class="site-nav__item">Privacy Policy</li>
-                <li class="site-nav__item">Careers</li>
-                <li class="site-nav__item">Shop</li>
-            </ul>
-        </section>
-        <section class="open-hours">
-            <h2 class="open-hours__title">Open Hours</h2>
-            <table class="open-hours__table">
-                <tr class="open-hours__row day">
-                    <td class="day__week">Monday</td>
-                    <!-- Добавить символ в ячейку либо используя псевдоклассы -->
-                    <td></td>
-                    <td class="day__time">11am - 2pm</td>
-                </tr>
-                <tr class="open-hours__row day">
-                    <td class="day__week">Tuesday</td>
-                    <td></td>
-                    <td class="day__time">8am - 10pm</td>
-                </tr>
-                <tr class="open-hours__row day">
-                    <td class="day__week">Wednesday</td>
-                    <td></td>
-                    <td class="day__time">11am - 12pm</td>
-                </tr>
-                <tr class="open-hours__row day">
-                    <td class="day__week">Thursday</td>
-                    <td></td>
-                    <td class="day__time">11am - 12pm</td>
-                </tr>
-                <tr class="open-hours__row day">
-                    <td class="day__week">Friday</td>
-                    <td></td>
-                    <td class="day__time">10am - 2pm</td>
-                </tr>
-                <tr class="open-hours__row day">
-                    <td class="day__week">Saturday</td>
-                    <td></td>
-                    <td class="day__time">10am - 2pm</td>
-                </tr>
-                <tr class="open-hours__row day">
-                    <td class="day__week">Sunday</td>
-                    <td></td>
-                    <td class="day__time">Close</td>
-                </tr>
-            </table>
-        </section>
-        <section class="our-location">
-            <h2 class="our-location__title">Our Location</h2>
-            <!-- добавить карту google или яндекс-->
-            <img class="our-location__img" src="#" alt="#">
-        </section>
-        <section class="site-copyright">
+			<section class="content__footer-nav footer-nav">
+				<h2 class="footer-nav__title">Useful Links</h2>
+				<ul class="footer-nav__list site-nav">
+					<!-- поcтавить якоря -->
+					<li class="site-nav__item">About Us</li>
+					<li class="site-nav__item">Advertise</li>
+					<li class="site-nav__item">Terms & Conditions</li>
+					<li class="site-nav__item">Privacy Policy</li>
+					<li class="site-nav__item">Careers</li>
+					<li class="site-nav__item">Shop</li>
+				</ul>
+			</section>
+			<section class="content__open-hours open-hours">
+				<h2 class="open-hours__title">Open Hours</h2>
+				<table class="open-hours__table">
+					<tr class="open-hours__row day">
+						<td class="day__week">Monday</td>
+						<!-- Добавить символ в ячейку либо используя псевдоклассы -->
+						<td></td>
+						<td class="day__time">11am - 2pm</td>
+					</tr>
+					<tr class="open-hours__row day">
+						<td class="day__week">Tuesday</td>
+						<td></td>
+						<td class="day__time">8am - 10pm</td>
+					</tr>
+					<tr class="open-hours__row day">
+						<td class="day__week">Wednesday</td>
+						<td></td>
+						<td class="day__time">11am - 12pm</td>
+					</tr>
+					<tr class="open-hours__row day">
+						<td class="day__week">Thursday</td>
+						<td></td>
+						<td class="day__time">11am - 12pm</td>
+					</tr>
+					<tr class="open-hours__row day">
+						<td class="day__week">Friday</td>
+						<td></td>
+						<td class="day__time">10am - 2pm</td>
+					</tr>
+					<tr class="open-hours__row day">
+						<td class="day__week">Saturday</td>
+						<td></td>
+						<td class="day__time">10am - 2pm</td>
+					</tr>
+					<tr class="open-hours__row day">
+						<td class="day__week">Sunday</td>
+						<td></td>
+						<td class="day__time">Close</td>
+					</tr>
+				</table>
+			</section>
+			<section class="content__our-location our-location">
+				<h2 class="our-location__title">Our Location</h2>
+				<!-- добавить карту google или яндекс-->
+				<img class="our-location__img" src="#" alt="#">
+			</section>
+		</section>
+        <section class="footer__copyright site-copyright">
             <h2 class="site-copyright__title">Bult with wp theme by alitstudio</h2>
             <ul class="site-copyright__list copyright">
                 <li class="copyright__item">

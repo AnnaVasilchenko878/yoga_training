@@ -1,0 +1,37 @@
+.card-class {
+	&__item {
+		width: 260px;
+		margin-right: 57px;
+	}
+
+	&__price {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		font-weight: 700;
+		line-height: 30px;
+		text-align: left;
+		color: $soft-blue;
+		font-size: 36px;
+	}
+
+	&__number {
+		color: $warm-grey;
+	}
+
+	&__title {
+		text-align: left;
+		text-transform: uppercase;
+		color: $soft-blue;
+	}
+
+	&__description {
+		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		color: $brownish-grey;
+	}
+
+	&__link {
+		background-color: $soft-blue;
+		color: $white;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}

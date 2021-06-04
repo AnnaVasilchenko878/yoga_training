@@ -1,4 +1,6 @@
 .contact {
+	margin-bottom: 120px;
+
 	&__title {
 		@include header (left, 72px, 90px, $soft-blue);
 	}
@@ -7,5 +9,13 @@
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		text-align: left;
 		color: $light-grey-blue;
+	}
+
+	&__wrapper {
+		display: flex;
+	}
+
+	&__form {
+		width: 570px;
 	}
 }

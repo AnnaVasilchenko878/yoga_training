@@ -1,5 +1,11 @@
 .office {
+	display: flex;
+	width: 580px;
 	text-align: left;
+
+	&__item {
+		width: 270px;
+	}
 
 	&__name {
 		line-height: 30px;

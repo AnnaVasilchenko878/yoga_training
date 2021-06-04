@@ -1,4 +1,6 @@
 .classes-promo {
+	margin-bottom: 89px;
+
 	&__title {
 		@include header(left, 72px, 90px, $dark-sky-blue-80);
 	}

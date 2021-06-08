@@ -1,7 +1,14 @@
 .start {
+	&__item {
+		width: 219px;
+	}
+
 	&__link {
 		color: $white;
 		font-size: 12px;
 		background-color: $soft-blue;
+		text-transform: uppercase;
+		padding: 16px 26px 15px 25px;
+		border-radius: 31px;
 	}
 }

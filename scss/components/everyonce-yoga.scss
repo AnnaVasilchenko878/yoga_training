@@ -1,6 +1,7 @@
 .everyones-yoga {
 	display: flex;
 	margin-bottom: 120px;
+	margin-left: 378px;
 
 	&__wrapper {
 		width: 570px;
@@ -9,10 +10,12 @@
 
 	&__title {
 		@include header(left, 48px, 28px, $soft-blue);
+		margin-bottom: 15px;
 	}
 
 	&__text {
 		width: 562px;
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
+		margin-bottom: 48px;
 	}
 }

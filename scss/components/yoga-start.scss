@@ -1,12 +1,23 @@
 .yoga-start {
 	margin-bottom: 120px;
+	margin-left: 375px;
 
 	&__title {
 		@include header(center, 32px, 36px, $black);
+		margin-bottom: 26px;
 	}
 
 	&__text {
-		text-align: center;
+		width: 444px;
+		margin: 0 auto;
+		margin-bottom: 53px;
+	}
+
+	&__wrapper {
+		display: block;
+		width: 297px;
+		margin: 0 auto;
+		margin-bottom: 80px;
 	}
 
 	&__link {
@@ -14,9 +25,7 @@
 		color: $white;
 		font-size: 12px;
 		background-color: $soft-blue;
-		display: block;
-		width: 297px;
-		margin: 0 auto;
-		margin-bottom: 80px;
+		padding: 16px 51px 15px 50px;
+		border-radius: 25px;
 	}
 }

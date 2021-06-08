@@ -1,5 +1,10 @@
 .copyright {
 	width: 499px;
+	display: flex;
+
+	&__item {
+		margin-right: 43px;
+	}
 
 	&__link {
 		text-transform: uppercase;

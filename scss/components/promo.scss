@@ -1,4 +1,12 @@
 .promo {
+	&__happy {
+		font-weight: 400;
+	}
+
 	@include header(right, 72px, 100px, $dark-sky-blue-80);
+	padding: 365px 15px 30px 70px;
 	margin-bottom: 380px;
+	background-image: url('../img/img_yoga_woman.png');
+	background-repeat: no-repeat;
+	background-position: left center;
 }

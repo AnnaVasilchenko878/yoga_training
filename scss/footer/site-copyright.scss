@@ -1,9 +1,11 @@
 .site-copyright {
 	display: flex;
+	padding: 36px 375px 33px 239px;
 
 	&__title {
 		color: $white;
 		text-transform: uppercase;
-		width: 273px;
+		width: 389px;
+		margin-right: 398px;
 	}
 }

@@ -16,10 +16,10 @@
         <nav class="header__nav">
             <ul class="nav__list nav">
                 <li class="nav__item">
-                    <a class="nav__link" href="#">Home</a>
+                    <a class="nav__link nav__link-active" href="#">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="abount.html">About Us</a>
+                    <a class="nav__link nav__link-about" href="about.html">About Us</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="#">Teacher</a>
@@ -166,8 +166,11 @@
             <h2 class="yoga-start__title">Tap into your inner fountain of youth.</h2>
             <p class="yoga-start__text">Access hundreds of yoga classes shot in natural studios around the world.
                 Unlimited access for $15/month.</p>
-            <a class="yoga-start__link" href="#">Start your 14-day free trial</a>
+				<div class="yoga-start__wrapper">
+					<a class="yoga-start__link" href="#">Start your 14-day free trial</a>
+				</div>
             <ul class="yoga-start__list trial">
+<!-- TODO: извлечь картинки из макета -->
                 <li class="trial__item">
 					<picture>
 						<source srcset="img/yoga-class-handstand.webp">
@@ -207,10 +210,12 @@
 					Ward, and Buckhead a
 					knowledgeable, welcoming, and comfortable place to practice yoga and to enhance your well-being and
 					general approach to holistic health.</p>
-				<span class="instructors__show">Meet Our Teacher</span>
-				<button class="instructors__button">
-					<img class="instructors__icon" src="#" alt="#">
-				</button>
+					<div class="instructors__wrapper-button">
+						<span class="instructors__show">Meet Our Teacher</span>
+						<button class="instructors__button">
+							<img class="instructors__icon" src="#" alt="#">
+						</button>
+					</div>
 			</div>
             <ul class="instructors__list trainer">
                 <li class="trainer__item">
@@ -218,32 +223,40 @@
 						<source srcset="img/img-becky.webp">
 					<img class="trainer__image" src="img/img-becky.jpg" width="80" height="80" alt="Becky Nickerson">
 					</picture>
-                    <h3 class="trainer__name">Becky Nickerson</h3>
+				<div class="trainer__data">
+					<h3 class="trainer__name">Becky Nickerson</h3>
                     <p class="trainer__position">Owner/Lead Instructor</p>
+				</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-taylor.webp">
 					<img class="trainer__image" src="img/img-taylor.jpg" width="80" height="80" alt="Taylor Harkness">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Taylor Harkness</h3>
                     <p class="trainer__position">Owner/Lead Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-natalie.webp">
 					<img class="trainer__image" src="img/img-natalie.jpg" width="80" height="80" alt="Natalie Skubic">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Natalie Skubic</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-meredith.webp">
 					<img class="trainer__image" src="img/img-meredith.jpg" width="80" height="80" alt="Meredith Hesse">
 					</picture>
-                    <h3 class="traier__name">Meredith Hesse</h3>
+					<div class="trainer__data">
+                    <h3 class="trainer__name">Meredith Hesse</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
@@ -251,8 +264,10 @@
 					<img class="trainer__image" src="img/img-jeff.jpg" width="80" height="80" alt="Jeff Sousa">
 
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Jeff Sousa</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
@@ -260,55 +275,69 @@
 					<img class="trainer__image" src="img/img-ashley.jpg" width="80" height="80" alt="Ashley Lorenzo">
 
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Ashley Lorenzo</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-jessica-calderon.webp">
 					<img class="trainer__image" src="img/img-jessica-calderon.jpg" width="80" height="80" alt="Jessica Calderon">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Jessica Calderon</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 					<img class="trainer__image" src="img/img-doug.jpg" width="80" height="80" alt="Doug Johnson">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Doug Johnson</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-sharon.webp">
 					<img class="trainer__image" src="img/img-sharon.jpg" width="80" height="80" alt="Sharon Caplan">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Sharon Caplan</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-erin.webp">
 					<img class="trainer__image" src="img/img-erin.jpg" width="80" height="80" alt="Erin Rogers">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Erin Rogers</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-jessica.webp">
 					<img class="trainer__image" src="img/img-jessica.jpg" width="80" height="80" alt="Jessica Taylor">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Jessica Taylor</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
                 <li class="trainer__item">
 					<picture>
 						<source srcset="img/img-todd.webp">
 					<img class="trainer__image" src="img/img-todd.jpg" width="80" height="80" alt="Todd Delaune">
 					</picture>
+					<div class="trainer__data">
                     <h3 class="trainer__name">Todd Delaune</h3>
                     <p class="trainer__position">Instructor</p>
+					</div>
                 </li>
             </ul>
         </section>
@@ -358,7 +387,7 @@
 				</div>
 				<form class="subscribe__form" action="#" method="POST">
 					<input class="subscribe__input" type="email" name="#" id="#" placeholder="Your address email">
-					<button class="subscribe__button" type="submit">Submit</button>
+					<button class="subscribe__button" type="submit">Subscribe</button>
 				</form>
 		</section>
     </main>
@@ -373,28 +402,28 @@
 						<a class="social__link" href="#">
 							<!-- иконка из FA -->
 							<img class="social__icon" src="#" alt="#">
-							<span>Facebook</span>
+							<span class="visually-hidden">Facebook</span>
 						</a>
 					</li>
 					<li class="social__item">
 							<!-- иконка из FA -->
 						<a class="social__link" href="#">
 							<img class="social__icon" src="#" alt="#">
-							<span>Twitter</span>
+							<span class="visually-hidden">Twitter</span>
 						</a>
 					</li>
 					<li class="social__item">
 							<!-- иконка из FA -->
 						<a class="social__link" href="#">
 							<img class="social__icon" src="#" alt="#">
-							<span>Google +</span>
+							<span class="visually-hidden">Google +</span>
 						</a>
 					</li>
 					<li class="social__item">
 							<!-- иконка из FA -->
 						<a class="social__link" href="#">
 							<img class="social__icon" src="#" alt="#">
-							<span>Printerest</span>
+							<span class="visually-hidden">Printerest</span>
 						</a>
 					</li>
 				</ul>
@@ -413,41 +442,41 @@
 			</section>
 			<section class="content__open-hours open-hours">
 				<h2 class="open-hours__title">Open Hours</h2>
-				<table class="open-hours__table">
-					<tr class="open-hours__row day">
+				<table class="open-hours__table day">
+					<tr class="open-hours__row">
 						<td class="day__week">Monday</td>
 						<!-- Добавить символ в ячейку либо используя псевдоклассы -->
-						<td></td>
+						<td>></td>
 						<td class="day__time">11am - 2pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Tuesday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">8am - 10pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Wednesday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">11am - 12pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Thursday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">11am - 12pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Friday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">10am - 2pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Saturday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">10am - 2pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Sunday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">Close</td>
 					</tr>
 				</table>

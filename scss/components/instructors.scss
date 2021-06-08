@@ -2,22 +2,36 @@
 	margin-bottom: 120px;
 
 	&__wrapper {
-		padding-top: 142px;
-		padding-left: 662px;
+		padding-top: 69px;
 		padding-bottom: 169px;
 		margin-bottom: 120px;
 		background-color: $soft-blue;
+		background-image: url('../img/bg-instructors.png');
+		background-repeat: no-repeat;
+		background-position: center;
 		color: $white;
 	}
 
 	&__title {
 		@include header(center, 32px, 36px, $white);
+		margin-bottom: 27px;
 	}
 
 	&__text {
 		text-align: center;
-		width: 542px;
+		width: 629px;
+		margin: 0 auto;
 		margin-bottom: 59px;
+	}
+
+	&__wrapper-button {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__show {
+		display: block;
+		margin-bottom: 23px;
 	}
 
 }

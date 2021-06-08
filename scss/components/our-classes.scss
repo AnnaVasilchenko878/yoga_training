@@ -1,5 +1,7 @@
 .our-classes {
 	margin-bottom: 118px;
+	background-color: $pale-grey-three;
+	padding: 120px 330px 118px 325px;
 
 	&__title {
 		@include header(center, 48px, 28px, $soft-blue);

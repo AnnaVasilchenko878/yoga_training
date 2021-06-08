@@ -1,8 +1,10 @@
 .contact-us {
 	color: $white;
+	margin-right: 133px;
 
 	&__title {
 		font-weight: 700;
+		margin-bottom: 27px;
 	}
 
 	&__text {
@@ -10,5 +12,7 @@
 		font-size: 13px;
 		line-height: 36px;
 		color: $pinkish-grey;
+		margin-bottom: 30px;
+		width: 236px;
 	}
 }

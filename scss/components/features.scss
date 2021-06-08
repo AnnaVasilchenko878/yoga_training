@@ -1,11 +1,17 @@
 .features {
 	width: 300px;
 
+	&__item {
+		margin-bottom: 58px;
+		width: 372px;
+	}
+
 	&__title {
 		font-family: "Poppins";
 		font-size: 18px;
 		font-weight: 500;
 		color: $black;
+		margin-bottom: 19px;
 	}
 
 	&__text {

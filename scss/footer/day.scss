@@ -1,4 +1,18 @@
 .day {
 	line-height: 30px;
 	color: $pinkish-grey;
+	width: 306px;
+	margin-right: 94px;
+
+	&__week {
+		width: 14px;
+	}
+
+	&__week~td {
+		width: 15px;
+	}
+
+	&__time {
+		width: 73px;
+	}
 }

@@ -1,10 +1,15 @@
 .many-features {
-	padding: 129px 391px 120px 392px;
+	padding-top: 129px;
+	padding-right: 391px;
+	padding-bottom: 120px;
 	margin-bottom: 120px;
+	background-color: $pale-grey;
 
 	&__title {
 		font-weight: 700;
 		text-align: center;
 		color: $soft-blue;
+		margin-bottom: 17px;
+		padding-left: 543px;
 	}
 }

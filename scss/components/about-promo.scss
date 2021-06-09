@@ -1,6 +1,9 @@
 .about-promo {
+	margin-left: 378px;
+
 	&__title {
 		@include header(left, 72px, 90px, $dark-sky-blue);
+		margin-bottom: 33px;
 	}
 
 	&__subtitle {
@@ -8,7 +11,7 @@
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		line-height: 90px;
 		color: $light-grey-blue;
-		margin-bottom: 259px;
+		margin-bottom: 85px;
 	}
 
 	&__wrapper {

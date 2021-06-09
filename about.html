@@ -17,10 +17,10 @@
         <nav class="header__nav">
             <ul class="nav__list nav">
                 <li class="nav__item">
-                    <a class="nav__link" href="#">Home</a>
+                    <a class="nav__link nav__link-active" href="#">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="abount.html">About Us</a>
+                    <a class="nav__link nav__link-about" href="about.html">About Us</a>
                 </li>
                 <li class="nav__item">
                     <a class="nav__link" href="#">Teacher</a>
@@ -75,8 +75,9 @@
         </section>
         <section class="about-blockquote">
             <h2 class="visually-hidden">People says</h2>
-            <blockquote class="about-blockquote__text">Put your heart, mind, intellect and soul even into your smallest
-                acts. This is the secret of success</blockquote><cite class="about-blockquote__autor">Myriam Jessier</cite>
+            <blockquote class="about-blockquote__text">
+				&#8223; Put your heart, mind, intellect and soul even into your smallest
+                acts. This is the secret of success &#8221;</blockquote><cite class="about-blockquote__autor">Myriam Jessier</cite>
         </section>
         <section class="yoga-classes">
             <ul class="yoga-classes__list main-classes">
@@ -124,7 +125,7 @@
             <h2 class="many-features__title">So Many Features</h2>
             <ul class="many-features__list many-advanced">
                 <li class="many-advanced__item">
-                    <blockquote class="many-advanced__bloquote">Great template! Very fast and easy to configure.
+                    <blockquote class="many-advanced__blockquote">Great template! Very fast and easy to configure.
                         Intuitive interface, didn't even have
                         to read the documentation. There were several questions that the author answered quickly. For
                         customization themes no need to edit css.</blockquote>
@@ -136,7 +137,7 @@
                     <p class="many-advanced__position">Envato author</p>
 				</li>
 				<li class="many-advanced__item">
-						<blockquote class="many-advanced__bloquote">Great template! Very fast and easy to configure.
+						<blockquote class="many-advanced__blockquote">Great template! Very fast and easy to configure.
 							Intuitive interface, didn't even have
 							to read the documentation. There were several questions that the author answered quickly. For
 							customization themes no need to edit css.</blockquote>
@@ -148,7 +149,7 @@
 						<p class="many-advanced__position">Envato author</p>
 				</li>
 			    <li class="many-advanced__item">
-							<blockquote class="many-advanced__bloquote">Great template! Very fast and easy to configure.
+							<blockquote class="many-advanced__blockquote">Great template! Very fast and easy to configure.
 								Intuitive interface, didn't even have
 								to read the documentation. There were several questions that the author answered quickly. For
 								customization themes no need to edit css.</blockquote>
@@ -186,8 +187,10 @@
             <h2 class="yoga-start__title">Tap into your inner fountain of youth.</h2>
             <p class="yoga-start__text">Access hundreds of yoga classes shot in natural studios around the world.
                 Unlimited access for $15/month.</p>
-            <a class="yoga-start__link" href="#">Start your 14-day free trial</a>
-        </section>
+				<div class="yoga-start__wrapper">
+					<a class="yoga-start__link" href="#">Start your 14-day free trial</a>
+				</div>
+			</section>
 		<section class="subscribe">
 			<h2 class="visually-hidden">Subscribe to news</h2>
 				<img class="subscribe__logo" src="img/logo_footer.svg" width="60" height="63" alt="Yoga logo">
@@ -197,7 +200,7 @@
 				</div>
 				<form class="subscribe__form" action="#" method="POST">
 					<input class="subscribe__input" type="email" name="#" id="#" placeholder="Your address email">
-					<button class="subscribe__button" type="submit">Submit</button>
+					<button class="subscribe__button" type="submit">Subscribe</button>
 				</form>
 		</section>
     </main>
@@ -212,28 +215,28 @@
 						<a class="social__link" href="#">
 							<!-- иконка из FA -->
 							<img class="social__icon" src="#" alt="#">
-							<span>Facebook</span>
+							<span class="visually-hidden">Facebook</span>
 						</a>
 					</li>
 					<li class="social__item">
 							<!-- иконка из FA -->
 						<a class="social__link" href="#">
 							<img class="social__icon" src="#" alt="#">
-							<span>Twitter</span>
+							<span class="visually-hidden">Twitter</span>
 						</a>
 					</li>
 					<li class="social__item">
 							<!-- иконка из FA -->
 						<a class="social__link" href="#">
 							<img class="social__icon" src="#" alt="#">
-							<span>Google +</span>
+							<span class="visually-hidden">Google +</span>
 						</a>
 					</li>
 					<li class="social__item">
 							<!-- иконка из FA -->
 						<a class="social__link" href="#">
 							<img class="social__icon" src="#" alt="#">
-							<span>Printerest</span>
+							<span class="visually-hidden">Printerest</span>
 						</a>
 					</li>
 				</ul>
@@ -252,41 +255,41 @@
 			</section>
 			<section class="content__open-hours open-hours">
 				<h2 class="open-hours__title">Open Hours</h2>
-				<table class="open-hours__table">
-					<tr class="open-hours__row day">
+				<table class="open-hours__table day">
+					<tr class="open-hours__row">
 						<td class="day__week">Monday</td>
 						<!-- Добавить символ в ячейку либо используя псевдоклассы -->
-						<td></td>
+						<td>></td>
 						<td class="day__time">11am - 2pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Tuesday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">8am - 10pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Wednesday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">11am - 12pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Thursday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">11am - 12pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Friday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">10am - 2pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Saturday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">10am - 2pm</td>
 					</tr>
 					<tr class="open-hours__row day">
 						<td class="day__week">Sunday</td>
-						<td></td>
+						<td>></td>
 						<td class="day__time">Close</td>
 					</tr>
 				</table>

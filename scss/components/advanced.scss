@@ -3,15 +3,20 @@
 	color: $soft-blue;
 	font-size: 42px;
 	display: flex;
+	padding-left: 392px;
+	width: 1736px;
 
 	&__item {
-		width: 89px;
+		width: 301px;
+		margin-right: 218px;
+		text-align: center;
 	}
 
 	&__name {
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		color: $light-grey-blue;
 		font-size: 14px;
+		text-align: center;
 
 	}
 }

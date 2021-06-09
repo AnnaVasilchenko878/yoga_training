@@ -1,22 +1,43 @@
 .many-advanced {
-	width: 570px;
-	margin: 0 auto;
+	width: 1363px;
 	margin-bottom: 91px;
+	padding-left: 676px;
 
 	&__blockquote {
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		font-size: 16px;
 		color: $light-grey-blue;
+		text-align: center;
+		line-height: 24px;
+		margin-bottom: 25px;
+	}
+
+	&__img {
+		border-radius: 50%;
+		display: block;
+		margin: 0 auto;
+		width: 71px;
+		height: 65px;
+		margin-bottom: 21px;
 	}
 
 	&__autor {
 		font-weight: 700;
 		color: $soft-blue;
 		text-align: center;
+		font-style: normal;
+		margin: 0 auto;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 11px;
 	}
 
 	&__position {
 		font-family: 'Lato', 'Arial Narrow', sans-serif;
 		color: $light-grey-blue;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 147px;
 	}
 }
